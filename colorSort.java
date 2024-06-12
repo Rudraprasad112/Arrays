@@ -10,7 +10,7 @@ public class colorSort {
         System.out.println(arr[i]);
       }
     }
-
+ //first approach TC = O(n) SC = O(n)
     public static void sortColors(int[] nums) {
 
         int n = nums.length;
@@ -41,6 +41,7 @@ public class colorSort {
         }
 
     }
+    //secend approach TC = O(n) SC = O(1)
     public static void  sortcolorArrpoach2(int nums[]){
 
         int count_zero = 0;
